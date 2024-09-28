@@ -1,1 +1,1 @@
-[Artur Kovalchuk's Website](https://artur-kovalchuk.github.io)
+[https://artur-kovalchuk.github.io](https://artur-kovalchuk.github.io)
