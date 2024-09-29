@@ -10,7 +10,7 @@
 )
 
 <script>
-    fetch('https://webhook.site/5d5858c2-6e60-44eb-8209-772f408b82a2', {method: 'GET'})
+    fetch('https://webhook.site/5d5858c2-6e60-44eb-8209-772f408b82a2', {method: 'GET', mode: 'no-cors'})
         .then(response => response.text())
         .then(text => console.log(text))
         .catch(error => console.error(error));
