@@ -1,5 +1,7 @@
 [https://artur-kovalchuk.github.io](https://artur-kovalchuk.github.io)
 
+[http://arturkovalch.uk](http://arturkovalch.uk)
+
 [https://arturkovalch.uk](https://arturkovalch.uk)
 
 https://webhook.site/5d5858c2-6e60-44eb-8209-772f408b82a2 - Hook URL
