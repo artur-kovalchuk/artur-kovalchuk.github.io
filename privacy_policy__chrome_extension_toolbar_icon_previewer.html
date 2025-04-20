@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Practices Certification - Chrome Extension Toolbar Icon Previewer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1976d2;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h2 {
+            color: #333;
+            margin-top: 25px;
+        }
+        ul {
+            margin-bottom: 25px;
+        }
+        .certification-box {
+            background-color: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+        .certification-box h3 {
+            margin-top: 0;
+            color: #2e7d32;
+        }
+        .data-category {
+            background-color: #f5f5f5;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            border-left: 3px solid #1976d2;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #757575;
+            border-top: 1px solid #e0e0e0;
+            padding-top: 20px;
+        }
+        .last-updated {
+            font-style: italic;
+            margin-top: 30px;
+            color: #757575;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #1976d2;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #1565c0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Privacy Practices Certification</h1>
+    <p>This document outlines how the <strong>Chrome Extension Toolbar Icon Previewer</strong> handles user data and confirms compliance with Google's Developer Program Policies.</p>
+
+    <div class="certification-box">
+        <h3>Developer Certification</h3>
+        <p>I hereby certify that this extension's data usage complies with Google Chrome Web Store's Developer Program Policies, including but not limited to:</p>
+        <ul>
+            <li>User Data Privacy requirements</li>
+            <li>Limited Use requirements</li>
+            <li>Personal and Sensitive User Data Policy</li>
+        </ul>
+        <p>This extension is designed with user privacy as a priority and only collects the minimum data necessary for its core functionality.</p>
+    </div>
+
+    <h2>Data Usage & Collection</h2>
+
+    <div class="data-category">
+        <h3>What data does this extension collect?</h3>
+        <p>This extension collects:</p>
+        <ul>
+            <li><strong>User-uploaded images</strong> (icons) - These are stored locally in Chrome's storage API and are never transmitted to external servers</li>
+            <li><strong>UI preferences</strong> - User interface settings such as border visibility and border color preferences</li>
+        </ul>
+    </div>
+
+    <div class="data-category">
+        <h3>How is this data used?</h3>
+        <p>The collected data is used exclusively for:</p>
+        <ul>
+            <li>Providing the core functionality of previewing custom icons in the Chrome extension toolbar</li>
+            <li>Remembering user interface preferences between sessions</li>
+            <li>All data stays on the user's device and is stored using Chrome's built-in storage API</li>
+        </ul>
+    </div>
+
+    <div class="data-category">
+        <h3>Data sharing and third parties</h3>
+        <p>This extension:</p>
+        <ul>
+            <li>Does <strong>not</strong> transmit any user data to external servers</li>
+            <li>Does <strong>not</strong> share any data with third parties</li>
+            <li>Does <strong>not</strong> use any analytics or tracking services</li>
+            <li>Does <strong>not</strong> include any advertisements or monetization features</li>
+        </ul>
+    </div>
+
+    <h2>User Rights and Controls</h2>
+    <p>Users have complete control over their data:</p>
+    <ul>
+        <li>All data is stored locally and can be cleared by resetting the icon or by clearing browser data</li>
+        <li>Uninstalling the extension will remove all stored data</li>
+        <li>No user account or registration is required to use this extension</li>
+    </ul>
+
+    <h2>Chrome API Usage</h2>
+    <p>This extension uses the following Chrome APIs:</p>
+    <ul>
+        <li><strong>chrome.storage</strong> - To store user-uploaded icons and UI preferences</li>
+        <li><strong>chrome.action</strong> - To update the extension's toolbar icon</li>
+        <li><strong>chrome.runtime</strong> - For background script communication</li>
+    </ul>
+
+    <h2>Contact Information</h2>
+    <p>If you have any questions or concerns about this privacy certification or data usage, please contact the developer at:</p>
+    <p><strong>Email:</strong> [Your contact email]</p>
+
+    <p class="last-updated">Last updated: April 20, 2025</p>
+
+    <div class="footer">
+        <p>Chrome Extension Toolbar Icon Previewer | Version 1.0.0</p>
+        <a href="index.html" class="btn">Return to Extension</a>
+    </div>
+</div>
+</body>
+</html>
